@@ -1,1 +1,16 @@
-<%= render 'list', post_images: @post_images %>
+<div class="card-list-container py-5 d-flex">
+  <div class="offset-md-1 col-md-2">
+    <table class="table table-borderless">
+      <thead>
+        <tr><th>ジャンル</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>勉強</td></tr>
+        <tr><td>スポーツ</td></tr>
+        <tr><td>芸術</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <%= render 'list', post_images: @post_images %>
+</div>
+
